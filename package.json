@@ -1,0 +1,25 @@
+{
+  "name": "rexcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run pretest",
+    "pretest": "make",
+    "watch": "make -j watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "has": "^1.0.0",
+    "pixi.js": "^2.2.7"
+  },
+  "devDependencies": {
+    "babel": "^5.1.10",
+    "browserify": "^9.0.8",
+    "keymaster": "^1.6.2",
+    "pixi.js": "^2.2.9",
+    "watchify": "^3.2.2"
+  }
+}
