@@ -22,8 +22,6 @@
     "keymaster": "^1.6.2",
     "pixi.js": "^2.2.9",
     "uglify-js": "^2.4.23",
-    "watch": "^0.16.0",
-    "watch-run": "^1.2.2",
-    "watchify": "^3.2.2"
+    "watch-run": "^1.2.2"
   }
 }
