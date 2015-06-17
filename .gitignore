@@ -26,6 +26,9 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 
+# MS Code
+typings
+
 # vim
 *.swo
 *.swp
@@ -35,4 +38,4 @@ node_modules
 
 # repo specific
 out/
-/bundle.js
+/bundle*.js*
