@@ -1,9 +1,10 @@
 {
-  "name": "rexcom",
+  "name": "CheckeredAssault",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "make clean",
     "prepublish": "npm run pretest",
     "pretest": "make",
     "watch": "make -j watch",
